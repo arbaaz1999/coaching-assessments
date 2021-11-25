@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta title="author" content="Dr. Eleanor Gaye">
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <title>Coaching Assesment</title>
+  </head>
+  <body>
+    <form>
+
+      <fieldset>
+
+        <legend>Personal Details</legend> <br> <br>
+
+        <label>Salutation</label>
+        <select name="salutation" id="salutation">
+          <option>Mr.</option>
+          <option>Ms.</option>
+          <option>Mrs.</option>
+          <option>Er.</option>
+          <option>Dr.</option>
+        </select> 
+        
+        <br>
+        <br>
+
+        <label for="firstName">First Name</label>
+        <input id="fName" type="text">
+        <p id="nameErr"> </p>
+
+        <label for="lastName">Last Name</label>
+        <input id="lName" type="text">
+        <p id="lastNameErr"></p>
+
+        <label>Gender</label>
+        <input type="radio" id="gender" name="gender"> Male
+        <input type="radio" id="gender" name="gender"> Female
+        <p id="genderErr"></p>
+        
+        <label for="doB">Date of Birth</label>
+        <input id="dob" type="date">
+        <p id="dateErr"></p>
+
+        <label for="age">Age</label>
+        <input id="age" type="range" min="0" max="100"> 100
+        <p id="ageErr"></p>
+
+        <label for="mobileNo">Mobile No.</label>
+        <input id="mno" type="number">
+        <p id="mobileNoErr"></p>
+
+        <label for="eMail">Email ID</label>
+        <input id="eid" type="email">
+        <p id="eMailErr"></p>
+
+        <label for="address1">Address Line 1</label>
+        <input id="ad1" type="text">
+        <p id="add1"></p>
+
+        <label for="address2">Address Line 2</label>
+        <input id="ad2" type="text">
+        <p id="add2"></p>
+
+        <label for="city">City</label>
+        <input id="cty" type="text">
+        <p id="cityErr"></p>
+
+        <label for="state">State</label>
+        <input id="stt" type="text">
+        <p id="stateErr"></p>
+
+        <label for="pinCode">Pincode</label>
+        <input id="pcn" type="number">
+        <p id="pinErr"></p>
+
+        <!-- <label>University</label>
+        <input list="university" name="university">
+        <datalist id="university">
+          <option>DAVV, Indore</option>
+          <option>RGPV, Bhopal</option>
+          <option>Jiwaji University, Ujjain</option>
+          <option>Barkatullah University, Bhopal</option>
+        </datalist>
+        <br>
+        <br>
+
+        <label for="courses">Which courses have completed</label><br>
+        <input type="checkbox" name="course1" id="course1">
+        <label for="HTML">HTML</label><br>
+        <input type="checkbox" name="course2" id="course2">
+        <label for="CSS">CSS</label><br>
+        <input type="checkbox" name="course3" id="course3">
+        <label for="Javascript">Javascript</label><br>
+        <input type="checkbox" name="course4" id="course4">
+        <label for="Bootstrap">Bootstrap</label><br>
+
+        <br>
+
+        <label for="image">Upload Photo</label>
+        <input type="file" name="image" id="image" multiple> -->
+
+        <!-- <input type="search" name="search" id="search" placeholder="Search"> -->
+
+        <br>
+        <button type="submit" id="btn">Submit</button>
+        <!-- <input type="reset" value="Reset"> -->
+
+
+      </fieldset>
+
+    </form>
+    
+    <script src="script/dom.js"></script>
+  </body>
+</html>

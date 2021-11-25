@@ -1,18 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <title>Simple video example</title>
+    <meta title="author" content="Dr. Eleanor Gaye">
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <title>Coaching Assesment</title>
   </head>
   <body>
-    <!-- <script src="scripts/objects.js"></script> -->
-    <!-- <script src="scripts/cube.js"></script> -->
-    <!-- <script src="scripts/average.js"></script> -->
-    <!-- <script src="scripts/nthterm.js"></script> -->
-    <!-- <script src="scripts/from-milisec-to-year-month-days.js"></script> -->
-    <!-- <script src="scripts/swap-two-numbers.js"></script> -->
-    <!-- <script src="scripts/should-i-sell.js"></script> -->
-    <script src="scripts/average-grade-score.js"></script>
-    
+    <label for="firstName">First Name</label>
+    <input id="fName" type="text">
+    <p id="nameErr"></p>
+
+    <label for="lastName">Last Name</label>
+    <input id="lName" type="text">
+    <p id="lastNameErr"></p>
+
+    <label for="doB">Date of Birth</label>
+    <input id="dob" type="date">
+    <p id="dateErr"></p>
+
+    <label for="mobileNo">Mobile No.</label>
+    <input id="mno" type="number">
+    <p id="mobileNoErr"></p>
+
+    <label for="eMail">Email ID</label>
+    <input id="eid" type="email">
+    <p id="eMailErr"></p>
+
+    <label for="address1">Address Line 1</label>
+    <input id="ad1" type="text">
+    <p id="add1"></p>
+
+    <label for="address2">Address Line 2</label>
+    <input id="ad2" type="text">
+    <p id="add2"></p>
+
+    <label for="city">City</label>
+    <input id="cty" type="text">
+    <p id="cityErr"></p>
+
+    <label for="state">State</label>
+    <input id="stt" type="text">
+    <p id="stateErr"></p>
+
+    <label for="pinCode">Pincode</label>
+    <input id="pcn" type="number">
+    <p id="pinErr"></p>
+
+    <button type="submit" id="btn">Submit</button>
+
+    <script src="script/dom.js"></script>
   </body>
 </html>
